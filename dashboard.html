@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | PapuaXplore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+    <header class="topbar">
+        <div class="logo">PapuaXplore</div>
+        <nav class="navbar">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="dashboard.html" class="nav-link">About</a>
+        </nav>
+    </header>
+
+  <!-- MAIN -->
+  <main class="dashboard-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h2>Kategori</h2>
+      <ul>
+        <li class="active" data-target="tradisi">Tradisi & Adat</li>
+        <li data-target="suku">Suku Papua</li>
+        <li data-target="rumah">Rumah Adat</li>
+        <li data-target="kuliner">Kuliner</li>
+        <li data-target="destinasi">Destinasi Alam</li>
+      </ul>
+    </aside>
+
+    <!-- CONTENT -->
+    <section class="content">
+
+      <!-- TRADISI -->
+      <div class="category active" id="tradisi">
+        <h1>Tradisi & Adat Papua</h1>
+        <div class="card-grid">
+          <div class="info-card" data-title="Pesta Bakar Batu" data-desc="Tradisi kebersamaan untuk bersyukur dan merayakan momen penting.">
+            <img src="img/budaya1.jpg" alt="Bakar Batu">
+            <h3>Pesta Bakar Batu</h3>
+          </div>
+
+          <div class="info-card" data-title="Tari Yospan (Yosim Pancar)" data-desc="Tarian pergaulan khas Papua yang menggambarkan semangat kebersamaan dan persahabatan.">
+            <img src="img/budaya2.jpg" alt="Tarian Perang">
+            <h3>Tari Yospan (Yosim Pancar)</h3>
+          </div>
+
+          <div class="info-card" data-title="Tradisi Festival Lembah Baliem" data-desc="Tradisi perang-perangan antar suku yang disimulasikan sebagai bentuk penghormatan terhadap keberanian dan persaudaraan.">
+            <img src="img/budaya3.jpg" alt="Potong Jari">
+            <h3>Festival Lembah Baliem</h3>
+          </div>
+
+          <div class="info-card" data-title="Tradisi Inisiasi" data-desc="Upacara kedewasaan bagi anak laki-laki yang menandai perubahan status sosial.">
+            <img src="img/budaya4.jpg" alt="Potong Jari">
+            <h3>Tradisi Inisiasi</h3>
+          </div>
+
+          <div class="info-card" data-title="Tradisi Potong Jari" data-desc="Tradisi duka cita masyarakat suku Dani untuk menghormati orang yang meninggal.">
+            <img src="img/budaya5.jpg" alt="Potong Jari">
+            <h3>Potong Jari</h3>
+          </div>
+
+          <div class="info-card" data-title="Tradisi Sasi Laut" data-desc="Aturan adat untuk melindungi ekosistem laut dengan melarang penangkapan ikan pada waktu tertentu.">
+            <img src="img/budaya6.jpg" alt="Potong Jari">
+            <h3>Tradisi Sasi Laut</h3>
+          </div>
+
+          <div class="info-card" data-title="Tradisi Ukir Kayu" data-desc="Kegiatan sakral yang melambangkan hubungan manusia dengan roh leluhur.">
+            <img src="img/budaya7.jpg" alt="Potong Jari">
+            <h3>Tradisi Ukir Kayu</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKU -->
+      <div class="category" id="suku">
+        <h1>Suku Papua</h1>
+        <div class="card-grid">
+          <div class="info-card" data-title="Suku Dani" data-desc="Suku Dani tinggal di Lembah Baliem dan terkenal dengan rumah Honai.">
+            <img src="img/suku1.jpg" alt="Suku Dani">
+            <h3>Suku Dani</h3>
+          </div>
+
+          <div class="info-card" data-title="Suku Asmat" data-desc="Suku Asmat terkenal dengan seni ukir kayu spiritual.">
+            <img src="img/suku2.jpg" alt="Suku Asmat">
+            <h3>Suku Asmat</h3>
+          </div>
+
+          <div class="info-card" data-title="Suku Korowai" data-desc="Suku Korowai dikenal dengan rumah pohon yang tinggi dan unik.">
+            <img src="img/suku3.jpg" alt="Suku Korowai">
+            <h3>Suku Korowai</h3>
+          </div>
+          <div class="info-card" data-title="Suku Amungme" data-desc="Tinggal di daerah pegunungan sekitar Tembagapura.">
+            <img src="img/suku4.jpg" alt="Suku Korowai">
+            <h3>Suku Amungme</h3>
+          </div>
+
+          <div class="info-card" data-title="Suku Mee (Ekagi)" data-desc="Berasal dari daerah sekitar Paniai dan memiliki sistem sosial kuat.">
+            <img src="img/suku5.jpg" alt="Suku Korowai">
+            <h3>Suku Mee (Ekagi)</h3>
+          </div>
+
+          <div class="info-card" data-title="Suku Yali" data-desc="Hidup di wilayah pegunungan tengah Papua dengan tradisi berpakaian dari serat alam.">
+            <img src="img/suku6.jpg" alt="Suku Korowai">
+            <h3>Suku Yali</h3>
+          </div>
+
+          <div class="info-card" data-title="Suku Biak" data-desc="Mendiami wilayah pesisir dan pulau-pulau kecil di utara Papua.">
+            <img src="img/suku7.jpg" alt="Suku Korowai">
+            <h3>Suku Biak</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="category" id="rumah">
+        <h1>Rumah Adat</h1>
+        <div class="card-grid">
+          <div class="info-card" data-title="Honai" data-desc="Rumah tradisional suku Dani, berbentuk bundar dengan atap jerami.">
+            <img src="img/rumah1.jpg" alt="Suku Dani">
+            <h3>Honai</h3>
+          </div>
+          <div class="info-card" data-title="Ebei" data-desc="Rumah khusus untuk wanita di suku Dani.">
+            <img src="img/rumah2.jpg" alt="Suku Dani">
+            <h3>Ebei</h3>
+          </div>
+          <div class="info-card" data-title="Jew" data-desc="Rumah adat suku Yali yang mirip dengan Honai tetapi lebih besar.">
+            <img src="img/rumah3.jpg" alt="Suku Dani">
+            <h3>Jew</h3>
+          </div>
+          <div class="info-card" data-title="Rumah Pohon Korowai" data-desc="Rumah yang dibangun di atas pohon dengan ketinggian bisa mencapai 30 meter.">
+            <img src="img/rumah4.jpg" alt="Suku Dani">
+            <h3>Rumah Pohon Korowai</h3>
+          </div>
+          <div class="info-card" data-title="Rumsram" data-desc="Rumah adat suku Biak yang digunakan untuk tempat tinggal dan pendidikan anak laki-laki.">
+            <img src="img/rumah5.jpg" alt="Suku Dani">
+            <h3>Rumsram</h3>
+          </div>
+          <div class="info-card" data-title="Kariwari" data-desc="Rumah adat suku Tobati-Enggros di Teluk Yos Sudarso, Jayapura.">
+            <img src="img/rumah6.jpg" alt="Suku Dani">
+            <h3>Kariwari</h3>
+          </div>
+          <div class="info-card" data-title="Wamai" data-desc="Rumah sementara di ladang bagi suku-suku pegunungan.">
+            <img src="img/rumah7.jpg" alt="Suku Dani">
+            <h3>Wamai</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="category" id="kuliner">
+        <h1>Makanan Khas</h1>
+        <div class="card-grid">
+          <div class="info-card" data-title="Papeda" data-desc="Bubur sagu kental yang dimakan dengan kuah ikan kuning.">
+            <img src="img/kuliner1.jpg" alt="Suku Dani">
+            <h3>Papeda</h3>
+          </div>
+          <div class="info-card" data-title="Ikan Kuah Kuning" data-desc="Hidangan khas pesisir dengan bumbu kunyit dan jeruk nipis.">
+            <img src="img/kuliner2.jpg" alt="Suku Dani">
+            <h3>Ikan Kuah Kuning</h3>
+          </div>
+          <div class="info-card" data-title="Udang Selingkuh" data-desc="Udang air tawar besar khas Wamena.">
+            <img src="img/kuliner3.jpg" alt="Suku Dani">
+            <h3>Udang Selingkuh</h3>
+          </div>
+          <div class="info-card" data-title="Sagu Lempeng" data-desc="Kue dari sagu yang dibakar hingga renyah.">
+            <img src="img/kuliner4.jpg" alt="Suku Dani">
+            <h3>Sagu Lempeng</h3>
+          </div>
+          <div class="info-card" data-title="Martabak Sagu" data-desc="Varian martabak dengan bahan utama sagu.">
+            <img src="img/kuliner5.jpg" alt="Suku Dani">
+            <h3>Martabak Sagu</h3>
+          </div>
+          <div class="info-card" data-title="Kue Bagea" data-desc="Kue kering dari tepung sagu dan rempah-rempah.">
+            <img src="img/kuliner6.jpg" alt="Suku Dani">
+            <h3>Kue Bagea</h3>
+          </div>
+          <div class="info-card" data-title="Ulat Sagu (Koo)" data-desc="Makanan tradisional suku pedalaman yang kaya protein.">
+            <img src="img/kuliner7.jpg" alt="Suku Dani">
+            <h3>Ulat Sagu (Koo)</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="category" id="destinasi">
+        <h1>Wisata Alam</h1>
+        <div class="card-grid">
+          <div class="info-card" data-title="Raja Ampat" data-desc="Bubur sagu kental yang dimakan dengan kuah ikan kuning.">
+            <img src="img/wisata1.jpg" alt="Suku Dani">
+            <h3>Raja Ampat</h3>
+          </div>
+          <div class="info-card" data-title="Danau Sentani" data-desc="Hidangan khas pesisir dengan bumbu kunyit dan jeruk nipis.">
+            <img src="img/wisata2.jpg" alt="Suku Dani">
+            <h3>Danau Sentani</h3>
+          </div>
+          <div class="info-card" data-title="Lembah Baliem" data-desc="Udang air tawar besar khas Wamena.">
+            <img src="img/wisata3.jpg" alt="Suku Dani">
+            <h3>Lembah Baliem</h3>
+          </div>
+          <div class="info-card" data-title="Puncak Jaya" data-desc="Kue dari sagu yang dibakar hingga renyah.">
+            <img src="img/wisata4.jpg" alt="Suku Dani">
+            <h3>Puncak Jaya</h3>
+          </div>
+          <div class="info-card" data-title="Taman Nasional Lorentz" data-desc="Varian martabak dengan bahan utama sagu.">
+            <img src="img/wisata5.jpg" alt="Suku Dani">
+            <h3>Taman Nasional Lorentz</h3>
+          </div>
+          <div class="info-card" data-title="Pantai Base-G" data-desc="Kue kering dari tepung sagu dan rempah-rempah.">
+            <img src="img/wisata6.jpg" alt="Suku Dani">
+            <h3>Pantai Base-G</h3>
+          </div>
+          <div class="info-card" data-title="Teluk Cenderawasih" data-desc="Makanan tradisional suku pedalaman yang kaya protein.">
+            <img src="img/wisata7.jpg" alt="Suku Dani">
+            <h3>Teluk Cenderawasih</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<!-- MODAL DETAIL -->
+<div id="detailModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <div class="modal-image">
+      <img id="modalImg" src="" alt="Detail Gambar">
+    </div>
+
+    <div class="modal-info">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+    </div>
+
+    <!-- Komentar -->
+    <div class="comment-section">
+      <div class="comment-input-bar">
+        <input id="commentInput" type="text" placeholder="Tambahkan komentar..." />
+        <button id="sendComment"><i class="fa fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NOTIFIKASI -->
+<div id="notif" class="notif-popup">Komentar berhasil dikirim!</div>
+
+  <footer>© 2025 PapuaXplore</footer>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
